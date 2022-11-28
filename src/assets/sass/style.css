@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  padding: 0;
+  margin: 0;
+}
+
+#topbar {
+  background-color: rgba(24, 180, 102, 0.75);
+  min-height: 5rem;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 0 6rem;
+}
+#topbar .row {
+  text-align: center;
+  width: 100%;
+}
+#topbar .col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#topbar .col p {
+  margin: 0;
+  margin-left: 0.5rem;
+}
+#topbar .col .logo {
+  transform: rotate(45deg);
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: rgb(66, 66, 66);
+  margin: 0 0.25rem;
+  background-color: transparent !important;
+}
+#topbar .col input {
+  width: 90%;
+  height: 2rem;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1rem;
+}
+#topbar .col input::-moz-placeholder {
+  color: gray;
+}
+#topbar .col input:-ms-input-placeholder {
+  color: gray;
+}
+#topbar .col input::placeholder {
+  color: gray;
+}
+
+#downbar {
+  background-color: rgba(0, 0, 0, 0.779);
+  min-height: 3rem;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 0 6rem;
+}
+#downbar .row {
+  text-align: center;
+  width: 100%;
+}
+#downbar .col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#downbar .col p {
+  margin: 0;
+  margin-left: 0.5rem;
+}
+#downbar .col .logo {
+  transform: rotate(45deg);
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: rgb(66, 66, 66);
+  margin: 0 0.25rem;
+  background-color: transparent !important;
+}
+
+#navbar {
+  min-height: 1.5rem;
+  padding-left: 10rem;
+  padding-right: 8rem;
+  text-shadow: 0px 0px 1px white;
+}
+
+#home {
+  background-image: url("../images/plane-aircraft-jet-airbase-67563.webp");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding-bottom: 0.1rem !important;
+}
+#home .home-content {
+  margin: 7rem 3rem;
+  color: white;
+}
+#home .home-content .row {
+  padding: 0 5rem;
+}
+#home .home-content .row .text h2,
+#home .home-content .row .text p {
+  padding-left: 0.5rem;
+}
+#home .home-content .row .text p {
+  margin: 2rem 0rem;
+}
+#home .home-content .row .text h2 {
+  border-left: 5px solid #18b466;
+  font-size: 2.5rem;
+}
+#home .home-content .row .text button {
+  background-color: #18b466;
+  border: none;
+  color: white;
+  padding: 0.25rem 1rem;
+  margin-left: 1rem;
+}
+#home .home-content .form {
+  padding: 1.5rem 3rem;
+  background-color: rgba(24, 180, 102, 0.75);
+}
+#home .home-content .form p {
+  margin: 0;
+}
+#home .home-content .form form .form-control {
+  border: none;
+  margin-top: 1.25rem;
+  border-radius: 0;
+}
+#home .home-content .form form .btn {
+  border-radius: 0;
+  margin-top: 1.25rem;
+  padding: 0.25rem 0rem;
+}
+
+#services {
+  padding: 5rem 12rem;
+  min-height: 100vh;
+  text-align: center;
+}
+#services h1 {
+  margin: 0;
+  font-weight: 400;
+}
+#services .underline {
+  border: 4px solid rgb(24, 180, 102);
+  border-radius: 1rem;
+  width: 2rem;
+  margin: 0 auto;
+}
+#services p {
+  margin-top: 2rem;
+  font-weight: 500;
+}
+#services .heading {
+  margin-bottom: 5rem;
+}
+#services .services p {
+  color: gray;
+  font-weight: 300;
+}
+#services .services .row {
+  padding: 3rem 2rem;
+}
+#services .services .col .circle {
+  height: auto;
+  padding: 2rem;
+  margin: 0 1rem;
+  background: rgb(0, 255, 89);
+  background: linear-gradient(0deg, rgb(0, 255, 89) 0%, rgba(9, 121, 33, 0.9948354342) 94%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#services .services .col .circle i {
+  color: white;
+  font-size: 3rem;
+  font-weight: lighter;
+}
+@media only screen and (max-width: 1300px) {
+  #services .services .col .circle {
+    height: 1.5rem !important;
+  }
+}
+#services .services .col p {
+  color: black;
+  margin: 0;
+  margin-top: 1rem;
+  text-shadow: 0 0 1px black;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+#services .services button {
+  margin-top: 1.5rem;
+  border-radius: 0;
+  padding: 0.5rem 3rem;
+}
+
+#about {
+  background-color: rgba(217, 213, 213, 0.738);
+}
+#about .about-content .row {
+  padding: 0 5rem;
+}
+#about .about-content .row .text h2,
+#about .about-content .row .text p {
+  padding-left: 0.5rem;
+}
+#about .about-content .row .text .underline {
+  border: 4px solid rgb(24, 180, 102);
+  border-radius: 1rem;
+  width: 2rem;
+  margin: 0 auto;
+}
+#about .about-content .row .text p {
+  margin: 2rem 0rem;
+}
+#about .about-content .row .text h2 {
+  padding: 22px;
+  font-size: 2.5rem;
+}
+#about .about-content .image img {
+  width: 180%;
+  height: 388px;
+}
+#about button {
+  border-radius: 0;
+}
+
+#news .row {
+  align-items: center;
+  padding-top: 3rem;
+  justify-content: space-between;
+}
+#news img {
+  border-radius: 0;
+}
+
+#client {
+  background: linear-gradient(to top, rgba(13, 122, 11, 0.7294117647), rgb(24, 180, 102)), url("../images/plane-aircraft-jet-airbase-67563.webp");
+  background-size: cover;
+  background-position: center;
+  min-height: 50vh;
+}
+#client .card-horizontal {
+  display: flex;
+  justify-content: center;
+}
+#client .card-horizontal .card {
+  margin: 4rem;
+  width: 690px;
+}
+#client .card-horizontal .card .card-title {
+  color: rgb(24, 180, 102);
+  font-size: 1.5rem;
+}
+
+#contact .my-5 {
+  margin-top: 5rem !important;
+  margin-bottom: 1rem !important;
+}
+#contact .form {
+  padding: 1.5rem 3rem;
+}
+#contact .form form {
+  margin: 3rem 3rem;
+  padding: 3rem;
+}
+#contact .form form .form-control {
+  border: none;
+  border-bottom: 1px solid black;
+  margin-top: 2.25rem;
+  border-radius: 0;
+  font-size: larger;
+}
+#contact .form form .btn {
+  font-size: large;
+  background-color: rgb(251, 110, 58);
+  border-radius: 14px;
+  margin-top: 7.25rem;
+  padding: 0.25rem 2rem;
+}
+
+#footer .navigation {
+  background-color: rgba(0, 0, 0, 0.779);
+}
+#footer .logo {
+  transform: rotate(45deg);
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: rgb(66, 66, 66);
+  margin: 0 0.25rem;
+  background-color: transparent !important;
+}
+#footer footer {
+  background-color: rgb(24, 180, 102);
+  color: white;
+}
+#footer footer .row {
+  padding: 5rem 10rem;
+}
+#footer footer .row .col {
+  border-right: 1px solid white;
+}
+#footer footer .row .info {
+  border: none;
+  justify-content: center;
+}
+#footer footer .row .info div {
+  margin: 0 2rem;
+}
+#footer footer .row .info div p {
+  font-size: 0.75rem;
+}
+#footer footer .row .icons div {
+  height: 1rem;
+  width: 1rem;
+  background-color: white;
+  color: rgb(24, 180, 102);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 1rem;
+  margin-right: 1rem;
+}
+#footer footer .footer-copyright {
+  background-color: rgba(0, 0, 0, 0.779);
+  color: white;
+}
+#footer footer .icons {
+  display: flex;
+}/*# sourceMappingURL=style.css.map */
